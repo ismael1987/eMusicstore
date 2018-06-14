@@ -1,15 +1,15 @@
-package com.emusicstore.deo;
+package com.emusicstore.dao;
 
 import com.emusicstore.model.Product;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductDeo {
+public class ProductDao {
 
     private List<Product> productList;
 
-    public List<Product> productList(){
+    public List<Product> getProductList(){
 
         Product product1= new Product();
         product1.setProductName("Gitar");
