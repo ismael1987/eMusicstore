@@ -1,6 +1,5 @@
 package com.emusicstore.controller;
 
-import com.emusicstore.dao.ProductDao;
 import com.emusicstore.model.Product;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
